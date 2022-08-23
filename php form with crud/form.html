@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Form</title>
+    </head>
+    <body>
+        <h1>Contact Form</h1>
+        <h5>Please fill in your information and we'll be sending your order in no time</h5>
+        <form class="form"  action="create.php" method="POST">
+            <!--Name-->
+            <label for="YourName">Your Name:</label>
+            <input  type="text" id="fname" name="firstname" placeholder="First Name">
+            <input type="text" id="lname" name="lastname" placeholder="Last Name">
+        
+             <!--Email-->
+            <br><br> <label for="YourName">Your Email:</label>
+            <input  type="email" id="email" name="email" placeholder="e.g hello@contact.net"><br><br>        
+       
+           <!--Phone-->
+            <label for="phone"<span class="required">*</span>Phone : </label>      
+            <input  id="phone"  type="tel"  name="phone[]" required maxlength="3"   required placeholder="###">
+            <input id="phone2"  type="tel"   name="phone[]" required maxlength="3"   required placeholder="###">
+            <input id ="phone3" type="tel"  name="phone[]" required maxlength="3"    required placeholder="###">
+
+            <!--Message Subject-->
+            <br><br> <label <span class="required">*</span>Message Subject : </label>        
+            <select required name="messagesubject" id="messagesubject">
+            <option value="Other">Other</option>
+            <option value="Internship">Internship</option>
+            <option value="Job">Job</option>
+            </select> <br><br>
+        
+            <!--Message-->
+            <label <span class="required">*</span>Message: </label><br>
+            <textarea id="textarea" name="message" rows="5" required cols="50"></textarea><br>
+        
+            <!--Submit Button-->
+            <hr> 
+            <input  id="btn" type="submit" name="submit" value="submit" /> </a>           
+        </form>
+        
+    </body>
+</html>

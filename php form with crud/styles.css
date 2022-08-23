@@ -1,0 +1,76 @@
+body {
+    background-image: url("backgroung3.jpg");
+    background-color: #cccccc;  
+    height: 500px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;  
+    text-align: center;
+    text-align: justify;
+    margin-left: 150px;
+   }
+h1,h5{
+     color : white;
+   }
+.form{ 
+color:white
+} 
+  .phone
+ {
+ font-size: small;
+}
+#fname 
+{  
+    margin-left:50px;
+    width: 165px;
+    Padding : 5px;
+}
+#lname
+{
+    width: 165px;
+    Padding : 5px;
+}
+#phone
+{
+  margin-left:70px;
+  width: 105px;
+  Padding : 5px;
+}
+#phone2,#phone3
+{
+    width: 105px;
+    Padding : 5px;
+}
+#msgsub{
+    
+    Padding : 5px;
+    width: 200px;
+
+}
+#email
+{  
+    margin-left:50px;
+  width: 350px;
+  Padding : 5px;
+} 
+#textarea
+{
+    width: 350px;
+    margin-left:130px;
+    Padding : 5px;
+}
+.g-recaptcha
+{
+    margin-left:120px;
+    Padding : 5px;
+}
+ 
+.btn{
+    padding: 15px;
+    cursor: pointer;
+    background-color: transparent;    
+    border-color: white;
+    color: white;  
+    border-radius: 10px;
+}
+ 

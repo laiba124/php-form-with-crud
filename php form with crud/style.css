@@ -1,0 +1,60 @@
+body {
+    background-image: url("backgroung3.jpg");
+    background-color: #cccccc;  
+    height: 500px;
+    background-position: center; 
+    /* background-repeat: no-repeat;  */
+    background-size: cover;  
+    text-align: center;
+    text-align: justify;
+    margin-left: 150px;
+   }
+   h2{
+    font-size: 30px;
+   font-weight: bold;
+    color : white;
+  }
+   table,th,td
+   {
+     border:1px solid white;
+     color:white;
+     padding: 10px;
+     text-align: left;
+   }
+   table
+   {
+      width:20%;
+   } 
+   td
+   {
+     height:40px;
+   }
+   #btn1 {
+    background-color: #4CAF50;  
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  #btn2 {
+    background-color: red ;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  #th1
+  {
+    width: 30px;
+    padding-left: 70px;
+     border:2px solid white;
+    color:white;
+     text-align: left;
+   }
+  
